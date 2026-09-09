@@ -1,6 +1,6 @@
 # CANOpener SE
 
-Dual CAN bus vehicle interface — Standard Edition, Hardware Revision A.
+CAN Opener Standard Edition, Hardware Revision A.
 
 ![CANOpener SE](docs/images/hero.png)
 
@@ -13,12 +13,12 @@ CANOpener SE is a compact dual CAN bus interface that plugs into a vehicle OBD-I
 
 ## Highlights
 
-| | |
-| --- | --- |
-| MCU | Espressif ESP32-C5 |
-| CAN transceivers | 2× Texas Instruments TCAN3414 |
-| Interfaces | 2× Classical CAN / CAN FD |
-| Max CAN data rate | 5 Mbps |
-| Vehicle input | Up to 24 V (typical 12 V) |
-| USB | USB-C, 5 V |
-| Logic | 3.3 V |
+|                   |                               |
+| ----------------- | ----------------------------- |
+| MCU               | Espressif ESP32-C5            |
+| CAN transceivers  | 2× Texas Instruments TCAN3414 |
+| Interfaces        | 2× Classical CAN / CAN FD     |
+| Max CAN data rate | 5 Mbps                        |
+| Vehicle input     | Up to 24 V (typical 12 V)     |
+| USB               | USB-C, 5 V                    |
+| Logic             | 3.3 V                         |
