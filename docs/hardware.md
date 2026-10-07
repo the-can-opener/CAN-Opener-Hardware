@@ -22,7 +22,8 @@ Onboard voltage regulation, input protection, CAN bus protection, an addressable
 | Typical input voltage | 12 V |
 | USB input voltage | 5 V |
 | Logic / I/O voltage | 3.3 V |
-| Operating current | — |
+| 12 V input current | 0.5 A |
+| 5 V USB current | 0.5 A |
 | CAN interfaces | 2 |
 | CAN protocols | Classical CAN, CAN FD |
 | Maximum CAN data rate | 5 Mbps |
@@ -50,17 +51,17 @@ Onboard voltage regulation, input protection, CAN bus protection, an addressable
 
 ESP32-C5-WROOM-1-N16R8 pin assignments for the BOOT button, addressable RGB LED, dual CAN interfaces, and CAN standby control.
 
-CAN 1 corresponds to schematic channel `CAN_0`; CAN 2 corresponds to `CAN_1`. GPIO numbers identify MCU signals, not module pad numbers.
+CAN 1 corresponds to schematic channel `CAN_0`; CAN 2 corresponds to `CAN_1`.
 
-| Function | Schematic net | GPIO | Module pad |
-| --- | --- | ---: | ---: |
-| BOOT button | BOOT | 28 | 15 |
-| RGB LED data | RGB_LED | 2 | 4 |
-| CAN 1 RX | CAN_0_RXD | 0 | 6 |
-| CAN 1 TX | CAN_0_TXD | 1 | 7 |
-| CAN 2 RX | CAN_1_RXD | 7 | 9 |
-| CAN 2 TX | CAN_1_TXD | 8 | 10 |
-| CAN standby (STB) | CAN_STB | 3 | 5 |
+| Function | Schematic net | GPIO |
+| --- | --- | ---: |
+| BOOT button | BOOT | 28 |
+| RGB LED data | RGB_LED | 2 |
+| CAN 1 RX | CAN_0_RXD | 0 |
+| CAN 1 TX | CAN_0_TXD | 1 |
+| CAN 2 RX | CAN_1_RXD | 7 |
+| CAN 2 TX | CAN_1_TXD | 8 |
+| CAN standby (STB) | CAN_STB | 3 |
 
 RX and TX are named from the microcontroller perspective: RX receives data from the CAN transceiver; TX sends data to the CAN transceiver.
 
