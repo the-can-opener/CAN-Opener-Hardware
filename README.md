@@ -14,7 +14,7 @@ Order from the CAN Opener store.
 
 [![Flash stock firmware](https://img.shields.io/badge/Flash%20stock%20firmware-17242f?style=for-the-badge)](https://dev.canopener.io/flash)
 
-Select model **CO-SE** to install or restore stock firmware. The latest version is selected by default. Use Chrome, Edge, or Firefox on a computer.
+Select model **CO-SE-NEXUS** to install or restore stock firmware. The latest version is selected by default. Use Chrome, Edge, or Firefox on a computer.
 
 ## Documentation
 
