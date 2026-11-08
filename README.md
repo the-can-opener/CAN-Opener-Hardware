@@ -1,12 +1,16 @@
 # CANOpener OBD SE
 
-Dual CAN bus OBD-II interface for vehicle networks. Standard Edition, Hardware Revision A.
+Dual CAN bus OBD-II interface for vehicle networks. Standard Edition, Hardware Revision v0.3Rev.B.
 
 ![CANOpener OBD SE, a compact OBD-II CAN bus interface](docs/images/hero.png)
 
 CANOpener OBD SE is a compact dual CAN bus interface that plugs into a vehicle OBD-II (OBD2) diagnostic port. It connects to two independent CAN buses and supports Classical CAN and CAN FD at up to 5 Mbps.
 
-The board is built around an Espressif ESP32-C5-WROOM-1-N8R8 with two Texas Instruments TCAN3414 CAN transceivers. It includes onboard voltage regulation, input and CAN bus protection, an addressable RGB status LED, Boot and Reset controls, and a wireless antenna. Power it from the vehicle or from USB-C.
+The board is built around an Espressif ESP32-C5-WROOM-1-N16R8 with two Texas Instruments TCAN3414 CAN transceivers. It includes onboard voltage regulation, input and CAN bus protection, an addressable RGB status LED, Boot and Reset controls, and a wireless antenna. Power it from the vehicle or from USB-C.
+
+## Revision summary
+
+Hardware Revision v0.3Rev.B uses the ESP32-C5-WROOM-1-N16R8. v0.3Rev.A and under used the N8R8.
 
 [![Buy CANOpener OBD SE](https://img.shields.io/badge/Buy%20CANOpener%20OBD%20SE-157e9b?style=for-the-badge)](https://shop.canopener.io)
 
@@ -25,7 +29,7 @@ Select model **CO-SE-NEXUS** to install or restore stock firmware. The latest ve
 
 |                   |                                       |
 | ----------------- | ------------------------------------- |
-| MCU               | Espressif ESP32-C5-WROOM-1-N8R8       |
+| MCU               | Espressif ESP32-C5-WROOM-1-N16R8      |
 | CAN transceivers  | 2× Texas Instruments TCAN3414         |
 | Interfaces        | 2× Classical CAN / CAN FD             |
 | Max CAN data rate | 5 Mbps                                |

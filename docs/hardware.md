@@ -1,14 +1,18 @@
 # CANOpener SE Hardware Specifications
 
-Standard Edition · Hardware Revision A
+Standard Edition · Hardware Revision v0.3Rev.B
 
 Original document: [CANOpener-SE-Hardware-Documentation.pdf](CANOpener-SE-Hardware-Documentation.pdf)
+
+## Revision summary
+
+Hardware Revision v0.3Rev.B uses the ESP32-C5-WROOM-1-N16R8. v0.3Rev.A and under used the N8R8.
 
 ## Introduction
 
 CANOpener SE is a compact dual CAN bus interface designed to connect directly to vehicle networks through the OBD-II diagnostic port.
 
-At the heart of CANOpener SE is an Espressif ESP32-C5 microcontroller with two independent CAN-FD controllers and integrated wireless connectivity. Two Texas Instruments TCAN3414 CAN transceivers provide the physical interface between the controller and the vehicle CAN networks.
+At the heart of CANOpener SE is an Espressif ESP32-C5-WROOM-1-N16R8 with two independent CAN-FD controllers and integrated wireless connectivity. Two Texas Instruments TCAN3414 CAN transceivers provide the physical interface between the controller and the vehicle CAN networks.
 
 The device connects directly to two CAN buses available through the OBD-II connector and supports both Classical CAN and CAN FD communication. CANOpener SE can be powered directly from the vehicle or through USB-C for development and configuration.
 
